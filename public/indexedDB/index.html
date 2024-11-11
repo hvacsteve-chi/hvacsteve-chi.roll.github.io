@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title>IndexedDB</title>
+</head>
+<body>
+    <form id="subscription">
+        <h1>Subscribe</h1>
+        <div id="message"></div>
+        <div class="field">
+            <label for="name">Name: 
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required /></label>
+            <small></small>
+        </div>
+        <div class="field">
+            <label for="email">Email: 
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required /></label>
+            <small></small>
+        </div>
+        <div class="field">
+            <button type="button" class="full" id="submit">Subscribe</button>
+        </div>
+    </form> <script src="js/form-data.js" defer></script>
+
+    <script src="js/app.js" defer></script>
+</body>
+</html>
