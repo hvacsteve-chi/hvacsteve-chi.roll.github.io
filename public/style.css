@@ -41,7 +41,7 @@ header {
   height: 100%;
   min-height: 65px;
   max-height: 65px;
-  background: pink;
+  background: red;
   color: black;
 }
 header .header-wrapper {
@@ -79,6 +79,8 @@ header .header-wrapper nav:is(:hover, :focus) {
   transform: all 200ms ease-in-out;
 }
 header .header-wrapper h1 {
+  margin-left: -65px;
+  margin-right: auto;
   font-size: calc(2.8rem + 0.18vw);
 }
 main {
@@ -89,7 +91,7 @@ main {
 main .main-wrapper {
   margin: auto;
   height: calc(100% - 2px);
-  width: calc(100% - px);
+  width: calc(100% - 2px);
   display: grid;
   place-items: center;
   background: rgba(119, 166, 182, 0.76);
