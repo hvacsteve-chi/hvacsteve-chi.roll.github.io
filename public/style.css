@@ -79,7 +79,7 @@ header .header-wrapper nav:is(:hover, :focus) {
   transform: all 200ms ease-in-out;
 }
 header .header-wrapper h1 {
-  margin-left: -65px;
+  margin-left: 65px;
   margin-right: auto;
   font-size: calc(2.8rem + 0.18vw);
 }
